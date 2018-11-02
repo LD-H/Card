@@ -1,0 +1,112 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{font-size:12px; font-family:"微软雅黑";}
+input,a{outline:none;}
+
+h1{
+    height: 78px;
+    min-width: 1111px;
+    line-height: 78px;
+    font-size: 36px;
+    font-family: 微软雅黑;
+    color: #ffffff;
+    background-color:#8ebf2f ;
+    text-align: center;
+}
+.explanation{
+    width: 100%;
+    min-width: 1111px;
+    height: 144px;
+    line-height:144px;
+    font-family: 微软雅黑;
+    font-size: 24px;
+    color: #545454;
+    text-align: center;
+}
+.explanation span
+{
+    display: inline-block;
+    width: 520px;
+}
+.wrapperOne,.wrapperTwo{
+    width: 1000px;
+    height: 48px;
+    padding-top: 60px;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+}
+.wrapperTwo{
+    margin: 0 auto ;
+    padding-top: 80px;
+}
+.errorOne{
+    width: 1000px;
+    height: 34px;
+    margin:  0 auto;
+    /*border: 1px solid red;*/
+}
+#email,#Newpassword,#emailTest,#RaginNewpassword{
+    width: 260px;
+    height: 40px;
+    line-height: 40px;
+    background: url("../bingImg/input.png") no-repeat;
+    color: #999999;
+    border: 0;
+    padding-left: 12px;
+}
+#email,#emailTest,#emailErro,#emailTestError{
+    float: left;
+}
+#Newpassword,#RaginNewpassword,#NewpasswordError,#RaginNewpasswordError{
+    float: right;
+}
+#emailError,#NewpasswordError,#emailTestError,#RaginNewpasswordError{
+    display: inline-block;
+    height: 30px;
+    font-family: 微软雅黑;
+    font-size: 12px;
+    color: #b3312a;
+    /*border: 1px solid black;*/
+}
+#emailError,#emailTestError{
+    width: 196px;
+}
+#NewpasswordError,#RaginNewpasswordError{
+    width: 265px;
+}
+
+#getTest{
+    /*margin-left: 80px;*/
+    padding: 0;
+    border:0;
+    outline: none;
+    background: none;
+    width: 66px;
+    height: 30px;
+    margin: 0 auto;
+    font-size: 10px;
+    font-family: 微软雅黑;
+    color: #999999;
+    background: url("../bingImg/button_dis.png") no-repeat;
+}
+#sure{
+    display: block;
+    width: 244px ;
+    height: 37px;
+    color: #ffffff;
+    line-height: 37px;
+    font-family: 微软雅黑;
+    font-size: 18px;
+    margin: 90px auto 0 auto;
+    background: none;
+    background: url("../bingImg/button_dis_1.png") no-repeat;
+    border: 0;
+}
+.main{
+    background-color: #efefef;
+    min-width: 1111px;
+}

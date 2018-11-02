@@ -1,0 +1,108 @@
+body,ul,li,dl,dt,dd,p,ol,h1,h2,h3,h4,h5,h6,form,img,table,fieldset,legend{margin:0; padding:0;}
+ul,li,ol{list-style:none;}
+img,fieldset{border:0; }
+img{display:block;}
+a{text-decoration:none; color:#333;}
+h1,h2,h3,h4,h5,h6{font-weight:100;}
+body{font-size:12px; font-family:"微软雅黑";}
+input,a{outline:none;}
+
+html,body{
+    /*position: relative;*/
+    background: url("../img/bg_1.png") no-repeat;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    background-size:cover;
+}
+/*.main*/
+/*{*/
+    /*position: relative;*/
+/*}*/
+.part{
+    position: absolute;
+    width: 306px;
+    height: 370px;
+    top: 50%;
+    left: 50%;
+    margin-left: -153px;
+    margin-top: -185px;
+    background: url("../img/bbg.png") no-repeat;
+    /*border: 1px solid white;*/
+    /*background: white;*/
+    /*background:rgba(255,255,255,0.7) ;*/
+    /*opacity: 0.7;*/
+}
+.part h2{
+    text-align: center;
+    /*border: 1px solid red;*/
+    color: #8ebf2f;
+    font-family: 微软雅黑;
+    font-size: 32px;
+}
+#stuNumber,#pass{
+    display: block;
+    width: 220px;
+    height: 32px;
+    line-height: 25px;
+    margin: 46px auto;
+    padding-left: 33px;
+    /*border-radius: 8px;*/
+    border: 0;
+    vertical-align: middle;
+    color: #999999;
+    /*background:rgba(255,255,255,0.5) ;*/
+    background: url("../img/input_.png") no-repeat;
+}
+.NumImg{
+    position: absolute;
+    top:26%;
+    left: 12%;
+}
+.PassImg{
+    position: absolute;
+    top:48%;
+    left: 12%;
+}
+#signGo{
+    display: block;
+    font-size: 18px;
+    color: #ffffff;
+    width: 200px;
+    margin: 0 auto;
+    height: 34px;
+    background: gray;
+    border-radius: 8px;
+}
+#autoGo{
+    width: 16px;
+    height: 16px;
+    margin-left: 36px ;
+    margin-top: 30px;
+    background: url("../img/bg.png") no-repeat;
+    border: 1px solid red;
+    vertical-align: -3px;
+}
+#forget{
+    margin-left: 80px;
+    padding: 0;
+    border:0;
+    outline: none;
+    background: none;
+}
+#stuError,#GoError{
+    position: absolute;
+    left: 14%;
+    width: 200px;
+    height: 20px;
+    font-family: 微软雅黑;
+    font-size: 12px;
+    color: #b3312a;
+    /*border: 1px solid black;*/
+}
+#stuError{
+    top:35%;
+}
+#GoError{
+    top: 55%;
+}
